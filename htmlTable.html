@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="salman alfarizi" />
+    <meta name="description" content="This page contains HTML table lesson" />
+    <title>HTML Table For Semantic Use</title>
+    <link rel="icon" href="images/html.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="htmlTable.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML Table for Semantic Use</h1>
+    </header>
+
+    <main>
+      <p>
+        Although now we can create table using CSS, we still able to use HTML
+        table element to give semantic structure in HTML pages.
+      </p>
+      <br />
+
+      <table>
+        <caption>
+          Jadwal Acara
+        </caption>
+        <thead>
+          <tr class="tableHeader">
+            <th>&nbsp;</th>
+            <th scope="col">Nama Acara</th>
+            <th scope="col">Jadwal</th>
+            <th scope="col">Waktu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tableContent">
+            <th scope="row">Acara Ke-1</th>
+            <td>Seminar</td>
+            <td>Kamis, 7 Sya'ban 1446H</td>
+            <td>
+              <time datetime="08.30">08.30</time> -
+              <time datetime="10.00">10.00</time>
+            </td>
+          </tr>
+
+          <tr class="tableContent">
+            <th scope="row">Acara ke-2</th>
+            <td>Kompetisi</td>
+            <td>Kamis, 7 Sya'ban 1446H</td>
+            <td>
+              <time datetime="13.00">13.00</time> -
+              <time datetime="14.00">14.00</time>
+            </td>
+          </tr>
+
+          <tr class="tableContent">
+            <th scope="row">Acara ke-3</th>
+            <td>Pembagian Hadiah</td>
+            <td>Kamis, 7 Sya'ban 1446H</td>
+            <td>
+              <time datetime="16.00">16.00</time> -
+              <time datetime="17.00">17.00</time>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Acara ke-4</th>
+            <td colspan="2" rowspan="2">Tidak ada acara</td>
+            <td>N/A</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Acara ke-5</th>
+            <td>N/A</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="4">
+              &copy; 1446H Made by Salman Alfarizi
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

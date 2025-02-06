@@ -1,0 +1,13 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+table, tr, th, td, caption{
+  border: solid, 1px #616161;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+.tableHeader{
+  background-color: rgba(34, 93, 255, 0.658);
+  color: white;
+}
