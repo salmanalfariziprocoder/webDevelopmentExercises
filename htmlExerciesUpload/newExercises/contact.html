@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="salman alfarizi" />
+    <meta
+      name="description"
+      content="I'am practicing all of lesson I have learned"
+    />
+
+    <meta
+      name="description"
+      content="this page contains information about salman restaurant history and policies"
+    />
+    <title>Contact</title>
+    <link
+      rel="icon"
+      href="imagesSource/contact-book-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="mainHeader">
+      <h1>Our Contact Information</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="index.html">Menus</a></li>
+          <li><a href="openHour.html">Open Hour</a></li>
+        </ul>
+      </nav>
+
+      <figure>
+        <img
+          src="imagesSource/sj-Jinnqw9bHjI-unsplash.jpg"
+          alt="dimsum picure"
+          title="Our dimsum use only halal and best quality ingredients"
+        />
+        <figcaption>Dimsum</figcaption>
+
+      </figure>
+    </header>
+    <hr />
+
+    <main>
+      <article id="contactInformationSection" id="contact">
+        <h2>Contact Us</h2>
+        <p>For booking and other information.</p>
+
+        <div id="contactList">
+          <ul>
+            <li>Email: <a href="mailto:salmanrestaurant@random.com">salmanrestaurant@random.com</a></li>
+
+            <li>Phone: <a href="tel:+123-567-7891">123-567-7891</a></li>
+
+            <li>Mailbox: <address>Jl. Biru, Merah, Hijau, Hitam No. 123</address></li>
+          </ul>
+        </div>
+
+        <form action="https://httpbin.org/get" method="get" class="formMain">
+          <fieldset>
+            <legend>Booking Request Form</legend>
+            <div class="formFieldInput">
+              <label for="name">Name:</label>
+              <br />
+              <input
+                type="text"
+                name="customerName"
+                id="name"
+                placeholder="Type your name"
+                required
+              />
+            </div>
+
+            <div class="formFieldInput">
+              <label for="email">Email:</label>
+              <br />
+              <input
+                type="email"
+                name="customerEmail"
+                id="email"
+                placeholder="Type your email"
+                required
+              />
+            </div>
+
+            <div class="formFieldInput">
+              <label for="phone">Phone Number:</label>
+              <br />
+              <input
+                type="tel"
+                name="customerPhoneNumber"
+                id="phone"
+                placeholder="Type your phone number"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                required
+              />
+            </div>
+
+            <div class="formFieldInput">
+              <label for="message">Your Booking Spesial Request:</label>
+              <br />
+              <textarea
+                name="bookingRequest"
+                id="message"
+                rows="10"
+                cols="50"
+                placeholder="I want table near the window"
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </article>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>Copyright &copy;Salman Restaurant</p>
+      <address>Jl. Biru, Merah, Hijau, Hitam No. 123</address>
+    </footer>
+  </body>
+</html>

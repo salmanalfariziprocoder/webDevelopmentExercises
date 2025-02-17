@@ -1,0 +1,38 @@
+body{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  padding-inline: 25%;
+}
+
+table, thead, tbody, tfoot, tr, th, td{
+  border: solid 1px #636363;
+}
+
+.tableMainHeader{
+  background-color: rgba(255, 255, 0, 0.712);
+  padding: .1em 1em;
+}
+
+.tfootData{
+  border: none;
+}
+
+.formMain{
+  width: 100%
+}
+
+.formMain fieldset{
+  border: solid 1px #6fa9ff;
+}
+
+.formFieldInput{
+  margin-block: 1em;
+}
+
+figure{
+  margin-inline: 15%;
+  width: 70%;
+}
+
+figure img{
+  width: inherit;
+}
